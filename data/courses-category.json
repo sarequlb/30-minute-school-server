@@ -1,26 +1,27 @@
 [
     {
-        "id": 1,
-        "name": "Html"
+        "id": "01",
+        "name": "English",
+        "img": "./category-photo/english-1.jpg"
     },
     {
-        "id": 2,
-        "name": "Css"
+        "id": "02",
+        "name": "Ict"
     },
     {
-        "id": 3,
-        "name": "Javascript"
+        "id": "03",
+        "name": "Physics"
     },
     {
-        "id": 4,
-        "name": "Python"
+        "id": "04",
+        "name": "Chemistry"
     },
     {
-        "id": 5,
-        "name": "Ruby"
+        "id": "05",
+        "name": "Biology"
     },
     {
-        "id": 6,
-        "name": "PHP"
+        "id": "06",
+        "name": "Frelancing"
     }
 ]
