@@ -28,6 +28,15 @@ app.get('/courses', (req,res) =>{
 } )
 
 
+
+app.get('/course/:id', (req,res) =>{
+    const id = req.params.id;
+    const allCourses = courses.filter(course => course.category_id === id)
+    res.send(allCourses)
+} )
+
+
+
 app.listen(port, () =>{
     console.log(`School of Programming running on ${port}`)
 })
