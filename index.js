@@ -29,10 +29,15 @@ app.get('/courses', (req,res) =>{
 
 
 
-app.get('/course/:id', (req,res) =>{
+app.get('/courses/:id', (req,res) =>{
     const id = req.params.id;
     const allCourses = courses.filter(course => course.category_id === id)
     res.send(allCourses)
+} )
+app.get('/course/:id', (req,res) =>{
+    const id = req.params.id;
+    const specifixCourse = courses.find(course => course.id === id)
+    res.send(specifixCourse)
 } )
 
 
